@@ -1,7 +1,6 @@
 = walkash
 
-
-Description goes here.
+Walks nested hashes giving you the power to interact with its inner parts.
 
 == Contributing to walkash
 
