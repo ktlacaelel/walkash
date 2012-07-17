@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "walkash"
   gem.homepage = "http://github.com/ktlacaelel/walkash"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Walks nested hashes}
+  gem.description = %Q{Walks nested hashes giving you the power to interact with its inner parts.}
   gem.email = "kazu.dev@gmail.com"
   gem.authors = ["kazuyoshi tlacaelel"]
   # dependencies defined in Gemfile
