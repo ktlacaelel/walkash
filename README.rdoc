@@ -4,7 +4,8 @@ Walks nested hashes giving you the power to interact with its inner parts.
 
 == Contributing to walkash
 
-    kazu@utopia:~/dev/git/walkash$ cat examples/walk_hash.rb
+kazu@utopia:~/dev/git/walkash$ cat examples/walk_hash.rb
+
 
     require 'rubygems'
     require 'walkash'
@@ -22,7 +23,9 @@ Walks nested hashes giving you the power to interact with its inner parts.
     Walkash.walk(hash, [fix_wrong])
     pp hash
 
-    kazu@utopia:~/dev/git/walkash$ ruby examples/walk_hash.rb
+kazu@utopia:~/dev/git/walkash$ ruby examples/walk_hash.rb
+
+
     {1=>
       {2=>
         {3=>
@@ -34,7 +37,6 @@ Walks nested hashes giving you the power to interact with its inner parts.
           {4=>
             {5=>
               {6=>{7=>{8=>{9=>{10=>{"ignore"=>"wrong", "fix"=>"correct"}}}}}}}}}}}
-    kazu@utopia:~/dev/git/walkash$
 
 
 == Copyright
