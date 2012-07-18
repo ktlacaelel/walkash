@@ -2,7 +2,7 @@
 
 Walks nested hashes giving you the power to interact with its inner parts.
 
-== Contributing to walkash
+== Usage
 
 kazu@utopia:~/dev/git/walkash$ cat examples/walk_hash.rb
 
@@ -12,7 +12,8 @@ kazu@utopia:~/dev/git/walkash$ cat examples/walk_hash.rb
     require 'pp'
 
     hash = {
-      1 => { 2 => { 3 => { 4 => { 5 => { 6 => { 7 => { 8 => { 9 => { 10 => { 'fix' => 'wrong', 'ignore' => 'wrong' }}}}}}}}}}
+      1 => { 2 => { 3 => { 4 => { 5 => { 6 => { 7 => {
+        8 => { 9 => {10 => { 'fix' => 'wrong', 'ignore' => 'wrong' }}}}}}}}}}
     }
 
     fix_wrong = lambda do |working_hash, key, value|
